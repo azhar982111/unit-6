@@ -84,7 +84,6 @@ export default function Form() {
                     <input type="submit" value="SUBMIT FORM" />
                 </div>
             </form>
-
         </div>
     );
 }
