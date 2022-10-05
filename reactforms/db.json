@@ -1,0 +1,44 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "Azhar",
+      "age": "28",
+      "address": "dfdfdfd",
+      "department": "dffdf",
+      "salary": "fdfdfd",
+      "maritalstate": false,
+      "profilephoto": "fdfdfdf"
+    },
+    {
+      "name": "azhar hussain",
+      "age": "6565",
+      "address": "dsfdsfds",
+      "department": "Developer",
+      "salary": "6664",
+      "maritalstate": true,
+      "profilephoto": "sfzsfzdzdfd",
+      "id": 2
+    },
+    {
+      "name": "junaid",
+      "age": "6565",
+      "address": "dsfdsfds",
+      "department": "Teacher",
+      "salary": "6664",
+      "maritalstate": true,
+      "profilephoto": "sfzsfzdzdfd",
+      "id": 3
+    },
+    {
+      "name": "azhar",
+      "age": "6565",
+      "address": "dsfdsfds",
+      "department": "",
+      "salary": "54545",
+      "maritalstate": false,
+      "profilephoto": "hcfghgvjh",
+      "id": 4
+    }
+  ]
+}
