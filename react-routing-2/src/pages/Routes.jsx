@@ -3,6 +3,8 @@ import Dashboard from "./Dashboard";
 import Home from "./Home";
 import Login from "./Login";
 import Settings from "./Settings";
+import Users from "./Users";
+import Userdetails from "./Userdetails";
 
 import PrivateRoute from "./PrivateRoute";
 
@@ -34,7 +36,25 @@ function AllRoutes() {
                     </PrivateRoute>
                 }
             ></Route>
+
+            <Route
+                path="/user"
+                element={
+                    <PrivateRoute>
+                        <Users />
+                    </PrivateRoute>
+                }
+            ></Route>
             <Route path="/login" element={<Login />}></Route>
+
+            <Route
+                path="/user/:user_id"
+                element={
+                    <PrivateRoute>
+                        <Userdetails />
+                    </PrivateRoute>
+                }
+            ></Route>
 
 
         </Routes>

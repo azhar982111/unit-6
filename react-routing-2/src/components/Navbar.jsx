@@ -19,7 +19,12 @@ const links = [
   {
     path: "/login",
     title: "LOGIN"
+  },
+  {
+    path: "/user",
+    title: "USERS"
   }
+
 ];
 
 function Navbar() {
