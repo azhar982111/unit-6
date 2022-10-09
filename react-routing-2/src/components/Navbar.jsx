@@ -23,6 +23,10 @@ const links = [
   {
     path: "/user",
     title: "USERS"
+  },
+  {
+    path: "/products",
+    title: "PRODUCTS"
   }
 
 ];

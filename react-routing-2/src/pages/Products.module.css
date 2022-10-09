@@ -1,0 +1,15 @@
+.parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    gap: 5px;
+}
+
+.card{
+    border: 1px solid red;
+}
+
+.card > img{
+    width: 60%;
+    height: 60%;
+}

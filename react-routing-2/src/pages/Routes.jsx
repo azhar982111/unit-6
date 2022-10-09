@@ -5,6 +5,8 @@ import Login from "./Login";
 import Settings from "./Settings";
 import Users from "./Users";
 import Userdetails from "./Userdetails";
+import Products from "./Products"
+import Productdetails from "./Productdetails"
 
 import PrivateRoute from "./PrivateRoute";
 
@@ -52,6 +54,24 @@ function AllRoutes() {
                 element={
                     <PrivateRoute>
                         <Userdetails />
+                    </PrivateRoute>
+                }
+            ></Route>
+
+            <Route
+                path="/products/:id"
+                element={
+                    <PrivateRoute>
+                        <Productdetails />
+                    </PrivateRoute>
+                }
+            ></Route>
+
+            <Route
+                path="/products"
+                element={
+                    <PrivateRoute>
+                        <Products />
                     </PrivateRoute>
                 }
             ></Route>
